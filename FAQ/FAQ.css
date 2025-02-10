@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: var(--lightblue);
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    background: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--grey);
+}
+
+.BigContainer {
+    max-width: 1669px;
+    padding: 0px 50px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.container {
+    max-width: 1540px;
+    padding: 0px 50px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*************************************color******************************/
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --green: #42bfa6;
+    --gray2: #F3F3F3;
+    --orange: #fe4c1c;
+    --border: #d5d7da;
+    --grey: #3f4c5a;
+    --lightgray: #f6f6f6;
+    --dirty: #717171;
+    --lightblue: #041527;
+    --dirtygray: #e5e5e5;
+    --light_bg_pink: rgba(233, 12, 144, 0.08);
+    --Volite: #7A316F;
+    --pink: #CD6688;
+    --darkblue: #011630;
+    --border: #D5D5D5;
+    --pinkdeep: #461959;
+    --deepgray: #414651;
+    /* Text sm/Medium */
+
+}
+
+/* *******************tages************************ */
+
+a.btn {
+    display: flex;
+    padding: 16px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--green);
+    background: var(--green);
+
+    /* Shadow/xs */
+    box-shadow: 0px 1px 2px 0px rgba(10, 13, 18, 0.05);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    line-height: normal;
+    color: var(--black);
+    font-weight: 600;
+    font-family: "Inter";
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: none;
+    user-select: none;
+    width: auto;
+}
+
+h1,
+.title_h1 {
+    font-size: 60px;
+    line-height: normal;
+    font-weight: 600;
+    color: var(--lightblue);
+    letter-spacing: -1.2px;
+    font-style: normal;
+}
+
+h2,
+.title_h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+h3,
+.title_h3 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+h4,
+.title_h4 {
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 600;
+}
+
+h5,
+.title_h5 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+h6,
+.title_h6 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Inter;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--grey);
+}
+
+.sixteen_p p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.eight_p p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    font-family: "Public Sans";
+    color: var(--lightblue);
+}
+
+.twenty_p p {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--grey);
+}
+
+
+.pad_both {
+    padding: 100px 0;
+}
+
+.pad_top {
+    padding-top: 100px;
+}
+
+.pad_btm {
+    padding-bottom: 100px;
+}
+
+.no_pad {
+    padding: 0;
+}
+
+.mar_top {
+    margin-top: 100px;
+}
+
+.mar_btm {
+    margin-bottom: 100px;
+}
+
+.mar_both {
+    margin: 100px 0;
+}
+
+.no_mar {
+    margin: 0px;
+}
+
+.center_text {
+    text-align: center;
+}
+
+
+/**************************FAQ-section********************/
+.faq-section{
+    background-color: var(--lightblue);
+}
+.faq-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 64px;
+    /*max-width: 950px;*/
+}
+.faq-wrapper h2{
+    text-align: center;
+    color: var(--white);
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+.question-box{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: var(--white);
+}
+.question-box h5{
+    color: var(--lightblue);
+}
+.question-box p{
+    color: var(--grey);
+}

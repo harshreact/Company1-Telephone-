@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --white:#fff;
+    --black:#000;
+    --green:#42BFA6;
+    --orange:#FE4C1C;
+    --b_purple:rgba(70, 25, 89, 0.1);
+    --purple:rgba(70, 25, 89);
+    --pink:#CD6688;
+    --b_pink:rgba(205, 102, 136, 0.1);
+    --lightpurple:#7A316F;
+    --b_lightpurple:rgba(122, 49, 111, 0.1);
+    --grey:#3F4C5A;
+}
+body{
+    background-color: var(--white);
+    font-size: normal;
+    font-weight: normal;
+    font-family: "Inter";
+}
+img{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+.container{
+    max-width: 1920px;
+    justify-content: center;
+    align-items: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Inter";
+    color: var(--black);
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 600;
+    color: var(--grey);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+    padding: 10px 18x;
+    border-radius: 8px;
+}
+h1,.title_h1{
+    font-size: 48px;
+}
+h2,.title_h2{
+    font-size: 30px;
+}
+.title_h3{
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 36px;
+}
+p{
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--grey);
+}
+.eighteen_p{
+    font-size: 18px;
+    line-height: 28px;
+}
+/******************************Header*************************************/
+.header-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-menu{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: var(--grey);
+}
+.login{
+    padding: 10px 18px;
+}
+.signup{
+    background-color: var(--green);
+}
+.signup a{
+    color: var(--white);
+    padding: 10px 18px;
+}
+/*************************************************************************/
+.banner-content{
+    padding:80px 32px 40px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.date{
+    color: var(--orange);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter";
+}
+.subtitle span{
+    display: flex;
+    justify-content: center;
+}
+.details{
+    display: flex;
+    gap: 545px;
+}
+.profile{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.name p:first-child{
+    font-size: 18px;
+    font-weight: 600;
+}
+.name p:nth-child(2){
+    font-size: 14px;
+    font-weight: 400;
+}
+.tags{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 8px;
+}
+.tag{
+    padding: 2px 10px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.Company{
+    color: var(--purple);
+    background-color: var(--b_purple);
+}
+.Research{
+    color: var(--lightpurple);
+    background-color: var(--b_lightpurple);
+}
+.Presentation{
+    color: var(--pink);
+    background-color: var(--b_pink);
+}
+
+/****************************Rich-text***************************/
+.rich-text{
+    padding: 0 150px;
+    display: flex;
+    flex-direction: column;
+    gap:48px
+}
+.Blog-header{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.thought{
+    padding: 8px 0;
+    border-left: 2px solid var(--orange);
+}
+.thought p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--grey);
+}
+
+
+
+
+
+
